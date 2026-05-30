@@ -1,25 +1,16 @@
-🏠 ConjuntoClick - Frontend.
+# React + Vite
 
-ConjuntoClick es la interfaz de usuario para la tienda virtual exclusiva de un conjunto residencial de 16 torres. Esta aplicación permite a los residentes navegar por el catálogo de productos, gestionar su carrito de compras y agendar pedidos directamente a su torre y apartamento.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Características Principales
-Catálogo Dinámico: Visualización de productos por categorías (Abarrotes, Aseo, Mascotas).
+Currently, two official plugins are available:
 
-Gestión de Carrito: Sistema intuitivo para agregar, quitar y modificar cantidades de productos.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Filtro por Torres: Formulario de registro y pedido validado para las 16 torres y 384 apartamentos del conjunto.
+## React Compiler
 
-Panel del Tendero: Interfaz dedicada para la gestión de inventario y cambio de estado de pedidos en tiempo real.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Diseño Responsive: Optimizado para que los vecinos realicen pedidos desde sus smartphones.
+## Expanding the ESLint configuration
 
-🛠️ Stack Tecnológico
-Framework: React.js (Vite como bundler para mayor velocidad).
-
-Estilos: Tailwind CSS para un diseño moderno y adaptativo.
-
-Iconos: Lucide React para una interfaz limpia y profesional.
-
-Manejo de Estado: Context API (nativo de React) para la gestión del carrito.
-
-Consumo de API: Axios para la comunicación con el repositorio de Backend.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
